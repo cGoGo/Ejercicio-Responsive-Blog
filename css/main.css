@@ -1,4 +1,36 @@
-/* Inserta tu codigo aqui */
+* {
+	font-family: "Open Sans";
+}
+/* Header */
+li {
+	display: inline-block;
+	padding-top: 6%;
+	padding-left: 2%;
+}
+li a:hover {
+	color: #1C1821;
+}
+
+
+/* Utilities */
+.bg-gray1 {
+	background-color: #2D2735;
+}
+.w-100 {
+	width: 100%;
+}
+.txt-right {
+	text-align: right;
+}
+.txt-deco-no {
+	text-decoration: none;
+}
+.txt-white {
+	color: white;
+}
+.lighter {
+	font-weight: 100;
+}
 
 /* Responsive */
 
