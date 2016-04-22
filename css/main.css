@@ -122,5 +122,41 @@ footer a:hover {
 }
 
 @media screen and (max-width: 600px) {
-
+	.container {
+		width: 100%;
+	}
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	[class*="col-"] {
+		width: 100%;
+	}
+	header img {
+		width: 80%;
+	}
+	nav ul {
+		text-align: center;
+		margin-bottom: 2%;
+	}
+	li {
+		padding-top: 0;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	li a {
+		padding: 2%;
+	}
+	section {
+		padding-top: 4%;
+	}
+	.headerContainer {
+		padding: 4% 0;
+	}
+	.headerContainer2 {
+		width: 90%;
+	}
+	.sidebar {
+		display: none;
+	}
 }
